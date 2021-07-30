@@ -1,4 +1,4 @@
-//KEY AIzaSyBQryrnj6GJ_XFu3KkubMBh-DIMJVOuHWQ
+//KEY
 
-export const API_KEY = "AIzaSyBQryrnj6GJ_XFu3KkubMBh-DIMJVOuHWQ";
+export const API_KEY = "YOUR KEY";
 export default API_KEY;
