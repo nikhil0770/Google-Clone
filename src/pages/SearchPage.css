@@ -1,0 +1,79 @@
+.googleimg {
+  object-fit: contain;
+  height: 70px;
+  margin-right: 50px;
+}
+.searchheader {
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  align-items: flex-start;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid lightgray;
+  margin-left: 20px;
+  background-color: white;
+}
+
+.searchheader_body > .search > .sinput {
+  margin-top: 10px !important;
+  width: unset;
+  margin: unset;
+  max-width: unset;
+}
+.searchoptions {
+  display: flex;
+  align-items: center;
+  color: rgb(85, 85, 85);
+  margin-left: 10px;
+}
+.optionsleft,
+.optionsright {
+  display: flex;
+}
+
+.optionsleft a,
+.optionsright a {
+  text-decoration: none;
+  color: grey;
+}
+.option {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+.optionsright {
+  margin-left: 80px;
+}
+.result_search {
+  margin: 20px;
+}
+.in_seconds {
+  margin-left: 20px;
+  color: gray;
+}
+.searchres {
+  max-width: 700px;
+  margin-left: 170px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.title_result {
+  text-decoration: none;
+}
+.title_result:hover {
+  text-decoration: underline;
+}
+.title_result > h2 {
+  font-weight: 500;
+}
+.snippet {
+  margin-top: 10px;
+}
+.imgparent {
+  object-fit: contain;
+  height: 12px;
+  width: 20px;
+  margin-right: 5px;
+}

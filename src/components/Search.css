@@ -1,0 +1,48 @@
+.sinput {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 10px 20px;
+  max-width: 450px;
+  border: 1px solid lightgray;
+  border-radius: 999px;
+}
+
+.sinput > input {
+  flex: 1;
+  font-size: medium;
+  border: none;
+  height: 15;
+  padding: 0px 10px;
+}
+
+.sinput > input:focus {
+  outline-width: 0;
+}
+.sicon {
+  color: gray;
+}
+.micon {
+  color: blue;
+}
+.search_button {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.search_button > button {
+  margin: 5px;
+  background-color: rgb(247, 245, 245);
+  border: 1px solid white;
+  text-transform: inherit;
+  font-size: small;
+  color: rgb(53, 52, 52);
+}
+.search_button > button:hover {
+  border: 1px solid rgb(206, 205, 205);
+}
+
+.hide {
+  display: none !important;
+}
